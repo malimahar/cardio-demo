@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Ahmed Khan - Consultant Cardiologist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #b30000;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .section {
+      padding: 40px 30px;
+      border-bottom: 1px solid #eee;
+    }
+    h2 {
+      color: #b30000;
+      margin-bottom: 15px;
+    }
+    .btn {
+      background: #b30000;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .form input, .form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form button {
+      width: 100%;
+      background-color: #b30000;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    .profile-img {
+      float: right;
+      width: 150px;
+      border-radius: 10px;
+      margin-left: 20px;
+    }
+    @media (max-width: 600px) {
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dr. Ahmed Khan</h1>
+  <p>Consultant Cardiologist | MBBS, FCPS, FACC</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section id="home" class="section">
+    <h2>Welcome to My Heart Clinic</h2>
+    <p>Providing advanced heart care with over 15 years of experience in interventional and clinical cardiology.</p>
+    <ul>
+      <li>✔ ECG & ECHO</li>
+      <li>✔ Angiography & Angioplasty</li>
+      <li>✔ Blood Pressure Management</li>
+      <li>✔ Heart Failure Treatment</li>
+    </ul>
+    <a href="#contact" class="btn">Book Appointment</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Dr. Ahmed Khan</h2>
+    <img src="https://via.placeholder.com/150" alt="Dr. Ahmed Khan" class="profile-img" />
+    <p>Dr. Ahmed Khan is a highly experienced cardiologist with over 15 years of service in the field. He completed his MBBS from King Edward Medical University and obtained his FCPS in Cardiology. He is a Fellow of the American College of Cardiology (FACC).</p>
+    <p>He previously served at Tabba Heart Institute and has successfully conducted over 1000+ angioplasties. His mission is to provide accessible, compassionate, and effective cardiac care to every patient.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact & Appointment</h2>
+    <p><strong>Clinic Address:</strong> Heart Care Clinic, Jail Road, Lahore</p>
+    <p><strong>Timings:</strong> Mon–Sat | 5 PM – 9 PM</p>
+    <p><strong>Phone:</strong> 0300-1234567 | <strong>WhatsApp:</strong> Available</p>
+
+    <form class="form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="tel" name="phone" placeholder="Your Phone" required />
+      <input type="date" name="date" required />
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Dr. Ahmed Khan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
