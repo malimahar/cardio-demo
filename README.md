@@ -105,18 +105,7 @@ content = """<!DOCTYPE html>
 
 </body>
 </html>
-"""
 
-# Create a folder and write index.html
-out_dir = Path("/mnt/data/Dr_Munawar_Card")
-out_dir.mkdir(parents=True, exist_ok=True)
-index_file = out_dir / "index.html"
-index_file.write_text(content, encoding="utf-8")
-
-# Create a zip file
-zip_path = Path("/mnt/data/Dr_Munawar_Card.zip")
-with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-    zf.write(index_file, arcname="index.html")
 
 # Show result path for user to download
 zip_path_str = str(zip_path)
